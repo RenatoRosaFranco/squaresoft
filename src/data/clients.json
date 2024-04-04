@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Repassa",
+    "linkUrl": "https://repassa.com.br"
+  },
+  {
+    "id": 2,
+    "name": "Video.bot",
+    "linkUrl": "https://overmediacast.com"
+  },
+  {
+    "id": 3,
+    "name": "Cedro Technologies",
+    "linkUrl": "https://cedrotech.com"
+  }
+]
