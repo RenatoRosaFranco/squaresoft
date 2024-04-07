@@ -1,0 +1,29 @@
+#header {
+  .navbar-default{
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #FFF;
+    border: 0px;
+    border-bottom: 1px solid #EEE;
+
+    .flag {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    button {
+      position: relative;
+      margin-left: 30px;
+      color: #FFF;
+      font-weight: bold;
+      width: 130px;
+      background-image: linear-gradient(to right, orange, red);
+      border: none;
+      border-radius: 0px;
+      cursor: pointer;
+    }
+  }
+}

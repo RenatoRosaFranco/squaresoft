@@ -1,3 +1,17 @@
 #about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 1px solid #FFF;
   position: relative;
+
+  a {
+    font-size: 12px;
+    position: relative;
+    color: #FFF;
+
+    i {
+      position: relative;
+      margin-left: 10px;
+    }
+  }
 }

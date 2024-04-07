@@ -1,0 +1,48 @@
+#workflow {
+  position: relative;
+  border: 1px solid #EEE;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  h1 {
+    position: relative;
+    margin-top: -10px;
+  }
+
+  .nav-button {
+    position: relative;
+    padding: 6px;
+    width: 40px;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .content {
+    position: relative;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-right: 60px;
+
+    i {
+      position: relative;
+      margin-right: 10px;
+    }
+
+    h1 {
+      position: relative;
+      margin-top: 15px;
+    }
+
+    p {
+      position: relative;
+      font-size: 16px;
+    }
+  }
+
+  .jumbotron {
+    position: relative;
+    margin-top: 40px;
+    border: 1px solid #EEE;
+    height: 220px;
+  }
+}

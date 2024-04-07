@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "fa-solid fa-rocket",
+    "name": "Build an MVP",
+    "description": "Transform your idea into reality, from validation to the construction of your MVP"
+  },
+  {
+    "id": 1,
+    "icon": "fa-solid fa-mobile",
+    "name": "Mobile Applications",
+    "description": "Have an exclusive and personalized application for your company and have your clients at a touch."
+  },
+  {
+    "id": 1,
+    "icon": "fa-solid fa-desktop",
+    "name": "Web Applications",
+    "description": "Increase your online presence with the development of a web application or site made for you."
+  },
+  {
+    "id": 1,
+    "icon": "fa-regular fa-lightbulb",
+    "name": "Custom Software",
+    "description": "We offer personalized solutions that are adapted to your specific needs, ensuring the delivery of exactly what you need."
+  }
+]

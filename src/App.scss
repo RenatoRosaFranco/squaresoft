@@ -1,0 +1,28 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.bold {
+  position: relative;
+  font-weight: bold;
+}
+
+.uppercase {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.colorized {
+  position: relative;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, orange, red);
+  animation: gradientMovement 5s linear infinite;
+}
+
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
