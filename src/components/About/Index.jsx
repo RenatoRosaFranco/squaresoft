@@ -42,7 +42,7 @@ const About = () => {
 
             <div className="row"><br />
               <div className="col-md-12 text-center">
-                <a href='#'>
+                <a href='/#worflow'>
                   Learn about your workflow
                   <i class="fa-solid fa-right-long colorized"></i>
                 </a>
