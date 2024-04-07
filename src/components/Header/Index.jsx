@@ -7,6 +7,10 @@ const Header = () => {
     console.log(selectedLanguage);
   }
 
+  const handleContactClick = () => {
+    window.open('https://form.typeform.com/to/zi7Gf4of', '_self	');
+  }
+
   return (
     <section id="header">
       <nav className="navbar navbar-default">
@@ -76,7 +80,9 @@ const Header = () => {
               <li><a href="/#services">Services</a></li>
               <li><a href="/#cases">Cases</a></li>
               <li>
-                <button className='btn btn-primary btn-lg'>
+                <button 
+                  onClick={handleContactClick}
+                  className='btn btn-primary btn-lg'>
                   Contact
                 </button>
               </li>

@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import clientsData from '../../data/clients.json';
 import './Hero.scss';
 
+const handleContactClick = () => {
+	window.open('https://form.typeform.com/to/zi7Gf4of', '_self	');
+}
+
 const HeroSection = memo(() => {
 	return(
 		<div className="col-md-12">
@@ -16,7 +20,9 @@ const HeroSection = memo(() => {
 			</p>
 
 			<br />
-			<button className='btn btn-primary btn-lg top'>
+			<button 
+				onClick={handleContactClick}
+				className='btn btn-primary btn-lg top'>
 				Contact
 			</button>
 		</div>
